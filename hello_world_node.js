@@ -5,7 +5,7 @@ app.get('/', (req,res) => {
     res.send('This should print on the page');
 });
 
-app.post('/', (res,req) => {
+app.post('/', (req, res) => {
     res.send('I should see it on the postman');
 });
 
